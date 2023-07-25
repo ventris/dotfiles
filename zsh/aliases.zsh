@@ -30,3 +30,6 @@ alias mtr='sudo /usr/local/sbin/mtr'
 # Alias vim to nvim
 alias vim="nvim"
 alias v="nvim"
+
+alias ls='ls -G'
+alias ll='ls -al'

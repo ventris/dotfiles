@@ -6,7 +6,7 @@ export DOTFILES="$HOME/code/dotfiles"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Load binaries from dotfiles
-export PATH="$DOTFILES/bin:$PATH"
+export PATH="$DOTFILES/bin/scripts:$PATH"
 export PATH="$DOTFILES/private/bin:$PATH"
 export PATH="$DOTFILES/baffinbay/bin:$PATH"
 
