@@ -1,0 +1,6 @@
+[submodule "dotPrivate"]
+	path = dotPrivate
+	url = git@github.com:ventris/dotPrivate.git
+[submodule "private"]
+	path = private
+	url = git@github.com:ventris/private.git
