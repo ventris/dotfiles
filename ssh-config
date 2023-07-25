@@ -1,0 +1,15 @@
+# create more structured config for ssh.
+Include config.d/*
+
+Host *
+      Protocol 2
+      ControlMaster auto
+      ControlPath ~/.ssh/control/%C
+      ControlPersist 1800
+      SendEnv LANG LC_*
+      ForwardAgent no
+      Compression yes
+      TCPKeepAlive yes
+      ServerAliveInterval 20
+      ServerAliveCountMax 10
+

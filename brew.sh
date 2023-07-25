@@ -75,16 +75,73 @@ brew install fx
 # jq https://stedolan.github.io/jq/
 brew install jq
 
+# Editor of choice
+brew install neovim
+
+brew install openssh
+brew install grep
 
 
+# Languages
+brew install golang
+
+# command line http and api test client
+brew install httpie
+
+# ======================
+#  CTF tols
+# ======================
+brew install aircrack-ng
+brew install bfg
+brew install binutils
+brew install binwalk
+brew install cifer
+brew install dex2jar
+brew install dns2tcp
+brew install fcrackzip
+brew install foremost
+brew install hashpump
+brew install hydra
+brew install john
+brew install knock
+brew install netpbm
+brew install nmap
+brew install pngcheck
+brew install socat
+brew install sqlmap
+brew install tcpflow
+brew install tcpreplay
+brew install tcptrace
+brew install ucspi-tcp # `tcpserver` etc.
+brew install xpdf
+brew install xz
+brew install burp-suite
+
+# =============================
+# GNU utils instead of MacOS equivalents
+# =============================
+
+brew install coreutils
+brew install findutils # find, locate, updatedb, xargs, g
+brew install moreutils # sponge
+brew install diffutils
+brew install gnu-indent
+brew install gnu-sed
+brew install ed
+brew install gnu-tar
+brew install grep
+brew install gnu-which
+brew install gawk
+brew install gzip
+brew install watch
+brew install gnutls
+brew install wget
+brew install curl
+brew install make
 
 # ===============================
 #  GUI apps from 'brew cask'
 # ================================
-
-# Karabiner and key code viewers
-#brew install karabiner-elements
-#brew install key-codes
 
 # Postman
 brew install --cask postman
@@ -99,7 +156,6 @@ brew install keepingyouawake
 # Browsers
 brew install --cask google-chrome
 brew install --cask firefox
-brew install --cask firefox-developer-edition
 
 # Password Manager
 brew install --cask 1password
@@ -121,8 +177,8 @@ brew install --cask wireshark
 brew install vlc
 
 # Little Snitch
-brew install little-snitch
-brew install micro-snitch
+brew install --cask little-snitch
+brew install --cask micro-snitch
 
 # alt-tab
 brew install --cask alt-tab
