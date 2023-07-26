@@ -14,7 +14,7 @@ truncate_to_repo = false
 disabled = true
 
 [git_branch]
-format = '[$branch(:$remote_branch)]($style) '
+format = '[$branch(:$remote_branch)](bold white) '
 
 [git_metrics]
 disabled = false

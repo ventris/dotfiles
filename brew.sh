@@ -139,6 +139,9 @@ brew install wget
 brew install curl
 brew install make
 
+# 1password-cli tool
+brew install 1password-cli
+
 # ===============================
 #  GUI apps from 'brew cask'
 # ================================
@@ -146,12 +149,12 @@ brew install make
 # Postman
 brew install --cask postman
 
-# Docker
-brew install --cask docker
+# podman
+brew install --cask podman
 
 # newmarcel/KeepingYouAwake: Prevents your Mac from going to sleep. - https://github.com/newmarcel/KeepingYouAwake
 # Alternative for caffeine/amphetamine
-brew install keepingyouawake
+brew install --cask keepingyouawake
 
 # Browsers
 brew install --cask google-chrome
@@ -159,7 +162,6 @@ brew install --cask firefox
 
 # Password Manager
 brew install --cask 1password
-brew install 1password-cli
 
 # Chat/video conference tools
 brew install --cask slack
@@ -174,7 +176,7 @@ brew install --cask visual-studio-code
 brew install --cask wireshark
 
 # Video player
-brew install vlc
+brew install --cask vlc
 
 # Little Snitch
 brew install --cask little-snitch
