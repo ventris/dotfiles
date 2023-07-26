@@ -9,7 +9,7 @@ mkdir -p ~/.config
 mkdir -p ~/.tmux/plugins
 
 # starship
-ln -sf $HOME/code/dotfiles/starship.toml $HOME/.config/starship.toml
+ln -sf $HOME/code/dotfiles/zsh/starship.toml $HOME/.config/starship.toml
 
 # zshrc
 ln -sf $HOME/code/dotfiles/.zshrc $HOME/.zshrc
