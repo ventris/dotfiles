@@ -1,9 +1,3 @@
 # .dotfiles
 
-
-
-# Updating submodules
-
-```bash
-git submodule update --remote --merge
-```
+My personal dotfiles.
