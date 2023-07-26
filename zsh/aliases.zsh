@@ -8,6 +8,7 @@ alias c="clear"
 alias dotfiles="cd $DOTFILES"
 
 # Git
+alias g="git"
 alias gs="git status"
 alias gb="git branch"
 alias gsw="git switch"
