@@ -30,19 +30,4 @@ setopt extendedglob nomatch notify share_history
 setopt prompt_subst
 unsetopt appendhistory autocd beep
 
-# colors for prompt https://www.ditig.com/256-colors-cheat-sheet
-PROMPT=$'%{\e[38;5;214m%}[%{\e[0m%}%m%{\e[38;5;214m%}]%{\e[01;30m%}%{\e[0;0m%} '
-RPROMPT=$'[%{\e[38;5;214m%}%~%{\e[0m%}] [$(TZ=Europe/Stockholm date +%H:%M:%S)]'
-
-#TMOUT=1
-#TRAPALRM() {
-#  zle reset-prompt }
-#
-#preexec() {
-#  print -Pn "\e]0;%~ "
-#  echo -n "$1"
-#  print -Pn "\a"
-#}
-#precmd() {
-#  print -Pn "\e]0;%~\a"
-#}
+eval "$(starship init zsh)"
