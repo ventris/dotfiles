@@ -33,3 +33,13 @@ alias v="nvim"
 
 alias ls='ls -G'
 alias ll='ls -al'
+
+
+# TMUX
+alias t="tmux"
+alias tls="tmux list-session"
+alias tat="tmux attach-session -d -t"
+
+alias mux="tmuxp load -y "
+
+alias less="less -R"
