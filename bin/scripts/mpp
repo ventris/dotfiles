@@ -1,0 +1,5 @@
+#!/bin/bash
+
+projectdir="$HOME/code"
+
+mkdir -p $projectdir/$1

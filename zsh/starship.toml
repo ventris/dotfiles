@@ -1,4 +1,4 @@
-format = """$hostname"""
+format = """$hostname $python"""
 right_format = """$git_metrics$git_branch$git_status$directory$time"""
 
 [hostname]
@@ -29,3 +29,5 @@ time_format = '%T'
 utc_time_offset = '+2'
 time_range = '00:00:00-24:00:00'
 
+[python]
+format = '[$virtualenv](bold white) '
