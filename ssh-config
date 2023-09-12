@@ -6,7 +6,7 @@ Host *
       #ControlMaster auto
       #ControlPath ~/.ssh/control/%C
       #ControlPersist 1800
-      SendEnv LANG LC_*
+      #SendEnv LANG LC_*
       ForwardAgent no
       Compression yes
       TCPKeepAlive yes

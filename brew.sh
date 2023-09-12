@@ -28,6 +28,15 @@ BREW_PREFIX=$(brew --prefix)
 brew install zsh
 brew install antigen
 
+# ==================
+# Window manager
+# ==================
+
+# yabai
+brew install koekeishiya/formulae/yabai
+# skhd
+brew install koekeishiya/formulae/skhd
+
 # =============================
 # GNU utils instead of MacOS equivalents
 # =============================
@@ -81,12 +90,21 @@ brew install neovim
 brew install openssh
 brew install grep
 
-
-# Languages
-brew install golang
-
 # command line http and api test client
 brew install httpie
+
+# ======================
+#  Languages
+# ======================
+# Golang
+brew install golang
+
+# Python
+brew install python@3.11
+
+# NodeJS and npm alternative
+brew tap oven-sh/bun
+brew install bun
 
 # ======================
 #  CTF tols
@@ -179,8 +197,10 @@ brew install --cask wireshark
 brew install --cask vlc
 
 # Little Snitch
-brew install --cask little-snitch
-brew install --cask micro-snitch
+#brew install --cask little-snitch
+#brew install --cask micro-snitch
 
 # alt-tab
 brew install --cask alt-tab
+
+

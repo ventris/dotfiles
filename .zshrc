@@ -31,3 +31,4 @@ setopt prompt_subst
 unsetopt appendhistory autocd beep
 
 eval "$(starship init zsh)"
+

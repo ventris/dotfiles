@@ -5,6 +5,9 @@ export DOTFILES="$HOME/code/dotfiles"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
+# Binutils
+export PATH="/opt/homebrew/opt/binutils/bin:$PATH"
+
 # Load binaries from dotfiles
 export PATH="$DOTFILES/bin/scripts:$PATH"
 export PATH="$DOTFILES/private/bin:$PATH"
