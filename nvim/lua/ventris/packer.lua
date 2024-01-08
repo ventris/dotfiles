@@ -12,8 +12,8 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     })
     use ({
-        "catppuccin/nvim",
-        as = "catppuccin",
+        "Mofiqul/dracula.nvim",
+        as = "dracula",
     })
     use({
         "folke/trouble.nvim",
@@ -34,7 +34,7 @@ return require('packer').startup(function(use)
             ts_update()
         end,
     }
-    use("theprimeagen/refactoring.nvim")
+    use ( 'theprimeagen/refactoring.nvim' )
     use ( 'theprimeagen/harpoon' )
     use ( 'mbbill/undotree' )
     use ( 'tpope/vim-fugitive' )
@@ -59,9 +59,7 @@ return require('packer').startup(function(use)
         {'L3MON4D3/LuaSnip'},     -- Required
         }
     }
-    use("folke/zen-mode.nvim")
     use("github/copilot.vim")
-    use("laytan/cloak.nvim")
     use({
         "kylechui/nvim-surround",
         tag = "*", -- Use for stability; omit to use `main` branch for the latest features
