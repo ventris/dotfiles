@@ -28,8 +28,16 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+vim.opt.mouse = ""
+
 vim.opt.colorcolumn = "80"
 
 vim.cmd('abb ife if err != nil {<CR><tab>return err<CR>}<CR>')
 
-
+vim.opt.listchars = {
+    tab = "»·",
+    trail = "·",
+    nbsp = "␣",
+    eol = "$",
+}
+vim.opt.list = true

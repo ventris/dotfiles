@@ -32,3 +32,4 @@ unsetopt appendhistory autocd beep
 
 eval "$(starship init zsh)"
 
+source "$HOME/.cargo/env"
