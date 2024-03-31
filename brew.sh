@@ -41,7 +41,7 @@ brew install koekeishiya/formulae/skhd
 # GNU utils instead of MacOS equivalents
 # =============================
 
-brew install coreutils 
+brew install coreutils
 brew install findutils # find, locate, updatedb, xargs, g
 brew install moreutils # sponge
 brew install diffutils
@@ -197,10 +197,23 @@ brew install --cask wireshark
 brew install --cask vlc
 
 # Little Snitch
-#brew install --cask little-snitch
-#brew install --cask micro-snitch
+brew install --cask little-snitch
+brew install --cask micro-snitch
 
 # alt-tab
 brew install --cask alt-tab
 
 
+# ===============================
+# Hashicorp tools
+# ================================
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+brew install hashicorp/tap/vault
+
+
+# ===============================
+# Pomerium
+# ================================
+brew tap pomerium/tap
+brew install pomerium/tap/pomerium-cli
