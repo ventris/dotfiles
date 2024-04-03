@@ -217,3 +217,5 @@ brew install hashicorp/tap/vault
 # ================================
 brew tap pomerium/tap
 brew install pomerium/tap/pomerium-cli
+
+brew install gh
