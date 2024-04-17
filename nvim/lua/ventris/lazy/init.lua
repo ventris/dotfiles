@@ -17,5 +17,4 @@ return {
         opts = {}
     },
     'nvim-treesitter/nvim-treesitter-context',
-    "laytan/cloak.nvim",
 }

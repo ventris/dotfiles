@@ -44,3 +44,6 @@ alias tat="tmux attach-session -d -t"
 alias mux="tmuxp load -y "
 
 alias less="less -R"
+
+alias opa='eval $(op signin)'
+alias opff='op item list | fzf'
