@@ -4,10 +4,10 @@ right_format = """$git_metrics$git_branch$git_status$directory$time"""
 [hostname]
 ssh_only = false
 disabled = false
-format = '[\[](fg:#FA9C1B)[$hostname]( white)[\]]( fg:#FA9C1B) '
+format = '[\[](fg:#58D0B7)[$hostname]( white)[\]]( fg:#58D0B7) '
 
 [directory]
-format = '[\[]( white)[$path](fg:#FA9C1B)[\]]( white) '
+format = '[\[]( white)[$path](fg:#58D0B7)[\]]( white) '
 truncate_to_repo = false
 
 [cmd_duration]

@@ -26,7 +26,7 @@ return {
                 "tsserver",
                 "rust_analyzer",
                 "pyright",
-                "gopls",
+                "gopls"
             },
             handlers = {
                 function(server_name)

@@ -1,10 +1,10 @@
 return {
-    "nvim-telescope/telescope.nvim",
-
-    tag = "0.1.5",
+    "nvim-telescope/telescope-file-browser.nvim",
 
     dependencies = {
-        "plenary"
+        "nvim-lua/plenary.nvim",
+        "nvim-telescope/telescope.nvim",
+        "ElPiloto/telescope-vimwiki.nvim"
     },
 
     config = function()
@@ -26,5 +26,13 @@ return {
         end)
         vim.keymap.set('n', '<leader>pb', builtin.buffers, {})
         vim.keymap.set('n', '<leader>vh', builtin.help_tags, {})
+
+        vim.keymap.set("n", "<leader>pd", ":Telescope file_browser<CR>")
+
+        vim.keymap.set("n", "<leader>wg", ":Telescope vimwiki live_grep<CR>")
+
+        vim.keymap.set("n", "<leader>gSc", function()
+            builtin.git_commits({})
+        end)
     end
 }

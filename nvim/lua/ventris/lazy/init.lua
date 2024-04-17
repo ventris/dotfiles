@@ -17,6 +17,5 @@ return {
         opts = {}
     },
     'nvim-treesitter/nvim-treesitter-context',
-    "github/copilot.vim",
     "laytan/cloak.nvim",
 }
