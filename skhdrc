@@ -1,5 +1,5 @@
 # open iTerm2, VScode, and Firefox with shortcuts
-cmd - return : open -a iTerm
+#cmd - return : open -a iTerm
 #cmd + shift - return : open -a "Visual Studio Code"
 #alt - return : open -a Firefox
 
@@ -143,7 +143,7 @@ alt - f : yabai -m window --toggle zoom-fullscreen
 #shift + alt - b : yabai -m window --toggle border
 
 # toggle window split type
-alt - e : yabai -m window --toggle split
+#alt - e : yabai -m window --toggle split
 
 # float / unfloat window and center on screen
 shift + alt - t : yabai -m window --toggle float;\
@@ -158,3 +158,6 @@ alt - t : yabai -m window --toggle float;\
 # toggle sticky, float and resize to picture-in-picture size
 #alt - p : yabai -m window --grid 5:5:4:0:1:1
 
+
+shift + alt - m: yabai -m config layout bsp
+shift + alt - n: yabai -m config layout stack
