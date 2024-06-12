@@ -35,6 +35,10 @@ alias v="nvim"
 alias ls='ls -G'
 alias ll='ls -al'
 
+# Alias .. to move back one and two steps in the directory
+alias ..="cd .."
+alias ...="cd ../.."
+
 
 # TMUX
 alias t="tmux"
