@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+# Function to display the help menu
+show_help() {
+    echo "Usage: $0 [option]"
+    echo "Options:"
+    echo "  default   Set DNS to default from DHCP"
+    echo "  local     Set DNS to use dnsmasq (127.0.0.1)"
+    echo "  help      Display this help message"
+}
+
+# Main script logic
+main() {
+    if [[ $# -ne 1 ]]; then
+        show_help
+        exit 1
+    fi
+
+    case $1 in
+        default)
+            echo "Setting DNS to default from DHCP"
+            networksetup -setdnsservers Wi-Fi empty
+            if [[ $? -ne 0 ]]; then
+                echo "Failed to set DNS to default. Please check your permissions and network settings."
+                exit 1
+            fi
+            ;;
+        local)
+            echo "Setting DNS to dnsmasq"
+            networksetup -setdnsservers Wi-Fi 127.0.0.1
+            if [[ $? -ne 0 ]]; then
+                echo "Failed to set DNS to dnsmasq. Please check your permissions and network settings."
+                exit 1
+            fi
+            ;;
+        help)
+            show_help
+            ;;
+        *)
+            echo "Error: Invalid option '$1'"
+            show_help
+            exit 1
+            ;;
+    esac
+}
+
+# Calling main function with all arguments passed to the script
+main "$@"
+
