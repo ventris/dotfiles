@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOTFILES_DIR=${DOTFILES_DIR}
+DOTFILES_DIR=$HOME/dotfiles
 
 mkdir -p ~/.ssh/config.d
 
@@ -21,10 +21,10 @@ ln -sf ${DOTFILES_DIR}/zsh/starship.toml $HOME/.config/starship.toml
 ln -sf ${DOTFILES_DIR}/.zshrc $HOME/.zshrc
 
 # yabai
-ln -sf ${DOTFILES_DIR}/yabairc $HOME/.config/yabai/yabairc
+#ln -sf ${DOTFILES_DIR}/yabairc $HOME/.config/yabai/yabairc
 
 # skhd
-ln -sf ${DOTFILES_DIR}/skhdrc $HOME/.config/skhd/skhdrc
+#ln -sf ${DOTFILES_DIR}/skhdrc $HOME/.config/skhd/skhdrc
 
 # setup ssh-config
 ln -sf ${DOTFILES_DIR}/ssh-config $HOME/.ssh/config

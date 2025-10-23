@@ -28,37 +28,6 @@ BREW_PREFIX=$(brew --prefix)
 brew install zsh
 brew install antigen
 
-# ==================
-# Window manager
-# ==================
-
-# yabai
-brew install koekeishiya/formulae/yabai
-# skhd
-brew install koekeishiya/formulae/skhd
-
-# =============================
-# GNU utils instead of MacOS equivalents
-# =============================
-
-brew install coreutils
-brew install findutils # find, locate, updatedb, xargs, g
-brew install moreutils # sponge
-brew install diffutils
-brew install gnu-indent
-brew install gnu-sed
-brew install ed
-brew install gnu-tar
-brew install grep
-brew install gnu-which
-brew install gawk
-brew install gzip
-brew install watch
-brew install gnutls
-brew install wget -with-iri # wget with IRI support
-brew install curl
-brew install make
-
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Upgrade old tools on Mac
@@ -98,9 +67,6 @@ brew install httpie
 # ======================
 # Golang
 brew install golang
-
-# Python
-brew install python@3.11
 
 # NodeJS and npm alternative
 brew tap oven-sh/bun
@@ -168,14 +134,14 @@ brew install 1password-cli
 brew install --cask postman
 
 # podman
-brew install --cask podman
+#brew install --cask podman
 
 # newmarcel/KeepingYouAwake: Prevents your Mac from going to sleep. - https://github.com/newmarcel/KeepingYouAwake
 # Alternative for caffeine/amphetamine
 brew install --cask keepingyouawake
 
 # Browsers
-brew install --cask google-chrome
+#brew install --cask google-chrome
 brew install --cask firefox
 
 # Password Manager
@@ -194,14 +160,14 @@ brew install --cask visual-studio-code
 brew install --cask wireshark
 
 # Video player
-brew install --cask vlc
+#brew install --cask vlc
 
 # Little Snitch
-brew install --cask little-snitch
-brew install --cask micro-snitch
+#brew install --cask little-snitch
+#brew install --cask micro-snitch
 
 # alt-tab
-brew install --cask alt-tab
+#brew install --cask alt-tab
 
 
 # ===============================
@@ -215,7 +181,7 @@ brew install hashicorp/tap/vault
 # ===============================
 # Pomerium
 # ================================
-brew tap pomerium/tap
-brew install pomerium/tap/pomerium-cli
+#brew tap pomerium/tap
+#brew install pomerium/tap/pomerium-cli
 
-brew install gh
+#brew install gh

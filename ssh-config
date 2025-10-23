@@ -3,9 +3,6 @@ Include config.d/*
 
 Host *
       Protocol 2
-      ControlMaster auto
-      ControlPath ~/.ssh/control/%C
-      ControlPersist 1800
       ForwardAgent no
       Compression yes
       TCPKeepAlive yes
